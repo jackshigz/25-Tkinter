@@ -52,7 +52,7 @@ def main():
     button2.grid()
 
     # ------------------------------------------------------------------
-    # TODO: 7.
+    # DONE: 7.
     #    -- Put a second Entry on the Frame.
     #    -- Put a third Button on the frame.
     #    -- Make this new Button respond to a button-press as follows:
@@ -81,7 +81,7 @@ def main():
     button3['command'] = (lambda: do_stufff(entry_box,entry_box2))
     button3.grid()
     # ------------------------------------------------------------------
-    # TODO: 8. As time permits, do other interesting GUI things!
+    # DONE: 8. As time permits, do other interesting GUI things!
     # ------------------------------------------------------------------
 
     root.mainloop()
